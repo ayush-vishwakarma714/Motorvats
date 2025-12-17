@@ -1,0 +1,36 @@
+{
+  "tata": {
+    "Nexon": ["Petrol Variant", "Diesel Variant", "AMT", "EV"],
+    "Harrier": ["XZ", "XZ+", "Dark Edition"],
+    "Punch": ["Pure", "Adventure", "Accomplished"],
+    "Safari": ["Smart", "Pure", "Accomplished", "Dark Edition"]
+  },
+
+  "mahindra": {
+    "Scorpio": ["S5", "S7", "S11"],
+    "Bolero": ["B4", "B6", "B6 Opt"],
+    "Thar": ["AX", "LX", "4x4"],
+    "XUV700": ["MX", "AX3", "AX5", "AX7"]
+  },
+
+  "suzuki": {
+    "Swift": ["LXI", "VXI", "ZXI"],
+    "Baleno": ["Sigma", "Delta", "Zeta", "Alpha"],
+    "Ertiga": ["LXI", "VXI", "ZXI"],
+    "Dzire": ["LXI", "VXI", "ZXI"]
+  },
+
+  "hyundai": {
+    "Creta": ["E", "EX", "S", "SX"],
+    "i20": ["Magna", "Sportz", "Asta"],
+    "Verna": ["EX", "SX", "SX(O)"],
+    "Venue": ["E", "S", "SX", "N Line"]
+  },
+
+  "toyota": {
+    "Fortuner": ["2WD", "4WD", "Legender"],
+    "Innova": ["G", "GX", "VX", "ZX"],
+    "Glanza": ["E", "S", "G", "V"],
+    "Hyryder": ["E", "S", "G", "V"]
+  }
+}

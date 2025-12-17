@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <title>m-repair guide</title>
+
+  <link href="repair.css" rel="stylesheet"> 
+</head>
+<body>
+<header class="heading" > 
+  <marque><h1>M-Repair Guide</h1></marque>
+</header>
+<div class="info">
+
+  <div class="company">
+    <h4>Select car company</h4>
+    
+    <select id="companySelect" required>
+      <option value="">Select car company</option>
+      <option value="tata">Tata</option>
+      <option value="mahindra">Mahindra</option>
+      <option value="suzuki">Suzuki</option>
+      <option value="hyundai">Hyundai</option>
+      <option value="toyota">Toyota</option>
+    </select>
+  </div>
+
+  <div class="car name">
+    <h4>Select car name</h4>
+    <select id="carSelect" required>
+      <option value="">Select car name</option>
+    </select>
+  </div>
+
+<div class="car model">
+  <h4>Select car model </h4>
+<select id="carmodel" required>
+<option value="">select car model</option>  
+</select>
+</div>
+<br>
+
+<div class="problem">
+<h4>Describe the problem</h4>
+<textarea id="problem" placeholder="Ex: engine making noise..." required></textarea>
+</div>
+<br>
+<button class="submitbtn"  id="submitBtn">Submit</button>
+    
+</div>
+
+<div id="notification-container"></div>
+
+</body>
+
+<script src="repair.js"></script>
+</html>
